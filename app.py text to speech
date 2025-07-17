@@ -1,0 +1,8 @@
+from utils.audio_utils import transcribe_audio
+
+if __name__ == "__main__":
+    audio_file = "sample_audio/sample.wav"
+    result = transcribe_audio(audio_file)
+    print("\n--- Transcription Output ---")
+    print(result)
+
